@@ -12,6 +12,6 @@ public class Snake extends Cell {
 
     @Override
     public int nextLocation() {
-        return 0;
+        return endIndex;
     }
 }
